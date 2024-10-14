@@ -1,5 +1,6 @@
 import csv
 import config
+import sqlite3
 
 class Cliente:
     def __init__(self, dni, nombre, apellido):
@@ -57,3 +58,5 @@ class Clientes:
             writer = csv.writer(fichero, delimiter=';')
             for cliente in Clientes.lista:
                 writer.writerow((cliente.dni, cliente.nombre, cliente.apellido))
+
+    
