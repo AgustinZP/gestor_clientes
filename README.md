@@ -1,4 +1,3 @@
-
 # Aplicación de Gestión de Clientes
 
 ## Descripción
@@ -20,4 +19,49 @@ Esta aplicación de escritorio está diseñada para la gestión de clientes, per
 - Python 3.11.4
 - Bibliotecas: `tkinter`, `sqlite3`, `csv`, `os`, `platform`, `re`
 
+## Instalación
 
+1. Clona este repositorio en tu máquina local:
+    ```bash
+    git clone https://github.com/tu-usuario/gestion-clientes.git
+    cd gestion-clientes
+    ```
+
+2. Instala las dependencias necesarias si deseas ejecutar el código desde el entorno Python:
+    ```bash
+    pip install tk
+    ```
+
+3. Ejecuta la aplicación directamente con Python:
+    ```bash
+    python gestor_clientes.py
+    ```
+
+## Ejecutable para Windows
+
+Si prefieres no trabajar con el entorno Python, puedes utilizar el **ejecutable para Windows** que ya he generado. No necesitas instalar Python ni las bibliotecas requeridas para utilizar la aplicación.
+
+1. Descarga el ejecutable desde el siguiente enlace: [Descargar Ejecutable](https://github.com/AgustinZP/gestor_clientes/tree/main/dist)
+2. Descomprime el archivo descargado.
+3. Ejecuta `gestor_clientes.exe` para iniciar la aplicación.
+
+## Uso
+
+Una vez que ejecutes la aplicación, podrás:
+
+- **Añadir Clientes**: Rellena los campos del formulario y pulsa el botón "Crear" para agregar un nuevo cliente.
+- **Editar Clientes**: Selecciona un cliente de la lista, modifica los datos y pulsa "Modificar".
+- **Eliminar Clientes**: Selecciona un cliente de la lista y pulsa "Borrar" para eliminarlo de la base de datos y el archivo CSV.
+
+La información se guarda automáticamente tanto en la base de datos SQLite como en un archivo CSV.
+
+## Tecnologías Utilizadas
+
+- **Lenguaje**: Python 3.11.4
+- **GUI**: Tkinter
+- **Almacenamiento**: SQLite y CSV
+- **Ejecutable**: PyInstaller para la creación de la versión ejecutable de Windows
+
+## Autor
+
+Desarrollado por Agustín Zaragoza Pérez - [agusdev.es](https://www.agusdev.es)
